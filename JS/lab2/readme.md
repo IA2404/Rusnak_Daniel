@@ -76,3 +76,14 @@
 **Пример вызова:** `mapTransactionDescriptions(transactions);`
 **Вывод:** `['Покупка в магазине', 'Снятие наличных']`
 
+
+![image](https://github.com/user-attachments/assets/d94a8154-79c1-448e-9d2d-3fa796e6742b)
+![image](https://github.com/user-attachments/assets/d97eba13-f4a3-4aff-a835-44f178c8d354)
+
+
+![image](https://github.com/user-attachments/assets/7605a979-9628-4d3c-9111-a33e92575372)
+
+
+![image](https://github.com/user-attachments/assets/1d3c8e9a-4000-4d38-80a8-a322211c5929)
+
+
