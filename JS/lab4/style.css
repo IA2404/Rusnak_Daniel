@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #fefefe, #f5f7fa);
+  margin: 0;
+  padding: 0;
+  color: #2c3e50;
+}
+
+.container {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border: 1px solid #ececec;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+}
+
+h1, h2 {
+  text-align: left;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 30px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.form input,
+.form select {
+  padding: 14px;
+  font-size: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: all 0.2s ease-in-out;
+}
+
+.form input:focus,
+.form select:focus {
+  border-color: #0077ff;
+  background-color: #fff;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 119, 255, 0.1);
+}
+
+.form button {
+  grid-column: span 2;
+  padding: 14px;
+  background-color: #0077ff;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #005fcc;
+}
+
+#transactions-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+#transactions-table th {
+  text-align: left;
+  font-weight: 500;
+  padding: 12px;
+  color: #555;
+  background-color: #fafafa;
+}
+
+#transactions-table td {
+  background-color: #ffffff;
+  padding: 14px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+}
+
+#transactions-table tr.income td {
+  border-left: 4px solid #27ae60;
+}
+
+#transactions-table tr.expense td {
+  border-left: 4px solid #e74c3c;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: 1px solid #e74c3c;
+  color: #e74c3c;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.delete-btn:hover {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.total {
+  margin-top: 30px;
+  font-size: 1.3rem;
+  text-align: right;
+  color: #2c3e50;
+}
+
+#full-description {
+  margin-top: 25px;
+  padding: 16px;
+  background-color: #fcfcfc;
+  border-left: 5px solid #0077ff;
+  border-radius: 6px;
+  color: #444;
+  font-size: 14px;
+  font-style: normal;
+}
